@@ -1,12 +1,14 @@
 
 export const runtime = 'edge';
 export async function GET() {
-  const building = {
-    buildingName: "Skyline Tower",
-    address: "123 Main Street, Sydney, ABC 12131",
-    floors: 15,
-    yearBuilt: 2010
-  };
+    const building = {
+        name: "Aurora Tower",
+        location: "12 Skyline Drive, Brisbane, QLD 4000",
+        numberOfUnits: 120,
+        lastRenovated: 2022,
+        hasRooftopGarden: true
+    };
+
 
   return new Response(JSON.stringify(building), {
     headers: {
