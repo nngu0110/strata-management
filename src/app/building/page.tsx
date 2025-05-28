@@ -172,7 +172,6 @@ export default function Building() {
      {errorMessage && <div className="mt-4 p-3 bg-red-100 text-red-800 rounded-md">{errorMessage}</div>}
     </div>
 
-    {/* Table for GET request */}
     <div>
      <h2 className="text-xl text-black font-semibold mb-4">Building Details</h2>
      {buildingData ? (
@@ -187,7 +186,6 @@ export default function Building() {
         <tr>
          <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Building Name</td>
          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{buildingData.buildingName}</td>
-         {/* building data là cái data trong response của get request */}
         </tr>
         <tr>
          <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Address</td>
