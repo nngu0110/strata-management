@@ -10,14 +10,13 @@ export default function Customer() {
    <p className="text-2xl text-black mb-4">Count: {countCustomer}</p>
    <div className="space-x-4">
     <button
-    //khi increment thì cập nhật count
-     className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+     className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-blue-700"
      onClick={() => setCountCustomer(countCustomer + 1)}
     >
      Increment
     </button>
     <button
-     className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700"
+     className="px-4 py-2 bg-green-500 text-white rounded hover:bg-red-700"
      onClick={() => setCountCustomer(countCustomer - 1)}
     >
      Decrement
